@@ -1,36 +1,63 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Joyeux anniversaire prlane!</title>
+	<title>Joyeux anniversaire Orlane!</title>
 	<style>
 		body {
 			background-color: pink;
-			background-image: url("https://cdn.pixabay.com/photo/2019/09/17/20/02/balloons-4485738_960_720.jpg");
-			background-size: cover;
-			background-repeat: no-repeat;
 			text-align: center;
 			font-size: 2em;
 			padding: 50px;
 		}
 		h1 {
-			font-size: 3em;
+			font-size: 2.5em;
 			font-weight: bold;
 			color: white;
 			text-shadow: 2px 2px #ff0080;
+			margin-top: 0;
 		}
-		img {
+		.image-container {
+			position: relative;
+			display: inline-block;
+			margin-top: 50px;
+		}
+		.image-container img {
 			border: 5px solid white;
 			border-radius: 50%;
 			max-width: 80%;
 			height: auto;
-			margin-top: 50px;
 			box-shadow: 5px 5px #ff0080;
+		}
+		.balloons {
+			position: absolute;
+			top: -10px;
+			left: -10px;
+		}
+		.dolphins {
+			position: absolute;
+			top: -10px;
+			right: -10px;
+		}
+		.hearts {
+			position: absolute;
+			bottom: -10px;
+			left: -10px;
+		}
+		p {
+			font-size: 1.5em;
+			margin-top: 50px;
 		}
 	</style>
 </head>
 <body>
-	<h1>Joyeux anniversaire prlane!</h1>
-	<p>Que cette journée soit remplie de bonheur, de rires, de cadeaux et de beaucoup d'amour. Profite de chaque instant et amuse-toi bien!</p>
-	<p>Avec tout mon amour,<br />Ton ami(e) qui t'aime</p>
+	<h1>Joyeux anniversaire Orlane!</h1>
+	<div class="image-container">
+		<img src="https://media.istockphoto.com/id/1368004438/fr/photo/photo-dun-couple-profitant-dune-journ%C3%A9e-%C3%A0-la-plage.jpg?s=1024x1024&w=is&k=20&c=EqVAvANEPQLOLViCHduM9jw3of9_sNDBUB2VRtLIw4o=" alt="Image d'anniversaire">
+		<img class="balloons" src="https://e7.pngegg.com/pngimages/987/156/png-clipart-three-assorted-color-balloons-illustration-balloon-balloons-5-holidays-lights-thumbnail.png" alt="Balloons">
+		<img class="dolphins" src="https://e7.pngegg.com/pngimages/547/748/png-clipart-common-bottlenose-dolphin-stenella-toothed-whale-common-dolphin-cute-dolphin-marine-mammal-white-thumbnail.png" alt="Dolphins">
+		<img class="hearts" src="https://photoshop-kopona.com/uploads/posts/2019-02/1549633591_heart-frame-1.jpg" alt="Hearts">
+	</div>
+	<p>Je t'aime</p>
+	<p>Avec tout mon amour,<br />Nicolas :)</p>
 </body>
 </html>
